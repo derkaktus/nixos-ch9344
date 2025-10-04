@@ -5,8 +5,10 @@ Dieses Repository dient als Beispiel wie das Kernel-Modul **ch9344** für ein Ni
 ## Files
 configuration.nix -> ch9344-overlay.nix -> ch9344-default.nix -> [sources]
 
-**configuration.nix** Beschreibt die Derivation des Systems in dem das Module eingebunden werden soll. *Default: /etc/nixos/configuration.nix* 
+**configuration.nix** Beschreibt die Derivation des Systems in dem das Module eingebunden werden soll. *Default: /etc/nixos/configuration.nix*
+
 **ch9344-overlay.nix** - Definiert die Bestandteile des Overlays
+
 **ch9344-default.nix** - Beschreibt wie das Modul als Paket gebaut wird
 
 
